@@ -208,3 +208,7 @@ button:active {
   border-radius: 12px;
   object-fit: contain;
 }
+
+#question-title {
+  font-size: 1.1rem;
+}

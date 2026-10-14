@@ -225,3 +225,86 @@ button:active {
 #quiz-screen {
   gap: 6px;
 }
+
+
+
+
+/* Компактный финальный экран */
+#final-screen {
+  gap: 6px;
+  min-height: 70vh;
+  padding: 12px 0;
+  justify-content: center;
+}
+
+/* Имя СОНЯ */
+#final-screen h1 {
+  font-size: 2rem;
+  margin: 0 0 6px;
+  letter-spacing: 4px;
+}
+
+/* Картинка под именем */
+#final-picture {
+  width: auto;
+  max-width: 100%;
+  max-height: 15vh;
+  object-fit: contain;
+  margin: 0 auto 6px;
+  flex-shrink: 1;
+}
+
+/* Текст финала */
+#final-text-container {
+  width: 100%;
+  max-width: 320px;
+}
+
+#final-text-container .final-line {
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+
+/* Дата */
+#final-text-container .final-date {
+  font-size: 0.8rem;
+}
+
+/* Ёжик */
+#final-hedgehog {
+  width: auto;
+  max-width: 100%;
+  max-height: 16vh;
+  object-fit: contain;
+  margin-top: 6px;
+  flex-shrink: 1;
+}
+
+/* На невысоких экранах */
+@media (max-height: 700px) {
+  #final-screen {
+    gap: 4px;
+    padding: 6px 0;
+  }
+
+  #final-screen h1 {
+    font-size: 1.7rem;
+    margin-bottom: 2px;
+  }
+
+  #final-picture {
+    max-height: 11vh;
+  }
+
+  #final-text-container .final-line {
+    font-size: 0.85rem;
+    line-height: 1.25;
+    margin-bottom: 3px;
+  }
+
+  #final-hedgehog {
+    max-height: 12vh;
+    margin-top: 2px;
+  }
+}

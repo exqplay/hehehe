@@ -212,3 +212,16 @@ button:active {
 #question-title {
   font-size: 1.1rem;
 }
+
+/* Уменьшаем расстояние между буквами даты и картинкой */
+#date-progress {
+  margin-bottom: 0 !important;
+}
+
+#question-image {
+  margin-top: 0 !important;
+}
+
+#quiz-screen {
+  gap: 6px;
+}
